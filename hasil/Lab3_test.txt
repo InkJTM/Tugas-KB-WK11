@@ -1,0 +1,115 @@
+======================================================================
+LAB 3 - UKUR HIT@K PADA DUA KOLEKSI
+======================================================================
+Diperbarui : 2026-11-02 10:04:00
+Model      : paraphrase-multilingual-MiniLM-L12-v2
+Jumlah uji : 15 pertanyaan
+
+PERBANDINGAN
+Koleksi           Chunk    Hit@1    Hit@3    Hit@5     MRR
+pedoman_500          48     0.40     0.67     0.80    0.53
+pedoman_1000         25     0.27     0.47     0.53    0.38
+
+======================================================================
+KOLEKSI pedoman_500 | chunk=500 | overlap=75 | total 48 chunk
+======================================================================
+  Buzzer Bodoh.pdf -> 17 chunk
+  Orang Bodoh voter 02.pdf -> 13 chunk
+  Prabowo Bodoh.pdf -> 18 chunk
+
+  Hit@1 = 0.40
+  Hit@3 = 0.67
+  Hit@5 = 0.80
+  MRR   = 0.53
+
+  RINCIAN PER PERTANYAAN
+  [ 1] kena di peringkat 1 | Apa yang menjadi salah satu persoalan dalam kehidupan demokrasi akibat aktivitas pembelaan politik tanpa batas? | kunci: "buzzer politik"
+  [ 2] kena di peringkat 3 | Apa yang seharusnya menjadi dasar masyarakat dalam memberikan suara saat pemilu? | kunci: "pertimbangan yang matang"
+  [ 3] kena di peringkat 3 | Apa yang berhak dilakukan masyarakat ketika pemerintah melakukan kesalahan? | kunci: "mengkritik"
+  [ 4] kena di peringkat 4 | Apa yang sering diutamakan sebagian pemilih daripada logika? | kunci: "fanatisme"
+  [ 5] kena di peringkat 3 | Apa yang harus dipelajari masyarakat sebelum menentukan pilihan dalam pemilu? | kunci: "rekam jejak calon pemimpin"
+  [ 6] GAGAL (tidak ada di top-5) | Apa yang menjadi tanggung jawab moral dari kebebasan memilih dalam demokrasi? | kunci: "mempertimbangkan pilihan secara rasional"
+  [ 7] kena di peringkat 1 | Apa yang seharusnya menjadi salah satu alat untuk memperbaiki pemerintahan? | kunci: "kritik"
+  [ 8] kena di peringkat 2 | Apa yang berhak diketahui publik jika seseorang mendapatkan keuntungan finansial dari aktivitas buzzer? | kunci: "transparansi"
+  [ 9] kena di peringkat 1 | Apa yang dibutuhkan masyarakat ketika mengeluhkan keadaan ekonomi kepada pemerintah? | kunci: "solusi"
+  [10] GAGAL (tidak ada di top-5) | Apa yang seharusnya menjadi prioritas utama dalam setiap keputusan seorang presiden? | kunci: "kepentingan rakyat"
+  [11] kena di peringkat 1 | Apa yang harus dilakukan terhadap kebijakan pemerintah jika tidak memberikan hasil yang diharapkan? | kunci: "dievaluasi"
+  [12] GAGAL (tidak ada di top-5) | Apa yang harus dimiliki seorang presiden untuk menghadapi kesalahan dalam kepemimpinannya? | kunci: "keberanian untuk bertanggung jawab"
+  [13] kena di peringkat 1 | Apa yang dapat memengaruhi harga kebutuhan pokok, pendidikan, kesehatan, dan lapangan pekerjaan? | kunci: "Kebijakan yang dibuat seorang presiden"
+  [14] kena di peringkat 4 | Apa yang dibutuhkan seorang presiden selain kemampuan menyampaikan pidato? | kunci: "berpikir jernih"
+  [15] kena di peringkat 1 | Apa yang dibutuhkan Indonesia dari seorang pemimpin untuk membangun masa depan bangsa? | kunci: "hasil nyata"
+
+  ANALISIS PERTANYAAN YANG GAGAL
+  [6] Apa yang menjadi tanggung jawab moral dari kebebasan memilih dalam demokrasi?  (kunci: "mempertimbangkan pilihan secara rasional")
+      ! Kata kunci TIDAK ditemukan di chunk mana pun pada koleksi ini: cek penulisan kunci, atau kata kunci terpotong di perbatasan chunk.
+      Chunk teratas: [Orang Bodoh voter 02.pdf · chunk 5] jarak=0.195
+      pemilu?  Demokrasi memberikan kebebasan kepada setiap orang untuk memilih siapa pun. Namun,  kebebasan tersebut juga membawa tanggung jawab moral untuk mempertimbangkan  pilihan secara rasional. Jangan sampai hak pilih yang seharusnya menjadi instrumen untuk  menentukan masa depan bangsa justru dig...
+  [10] Apa yang seharusnya menjadi prioritas utama dalam setiap keputusan seorang presiden?  (kunci: "kepentingan rakyat")
+      Chunk teratas: [Orang Bodoh voter 02.pdf · chunk 12] jarak=0.336
+      ilih seorang presiden membutuhkan satu hari, tetapi dampak dari pilihan  tersebut bisa dirasakan selama bertahun-tahun. Dan jika seseorang bahkan tidak mau  menggunakan akal sehat ketika menentukan masa depan negaranya, maka yang perlu  dipertanyakan bukan hanya pilihan politiknya, melainkan juga ta...
+  [12] Apa yang harus dimiliki seorang presiden untuk menghadapi kesalahan dalam kepemimpinannya?  (kunci: "keberanian untuk bertanggung jawab")
+      ! Kata kunci TIDAK ditemukan di chunk mana pun pada koleksi ini: cek penulisan kunci, atau kata kunci terpotong di perbatasan chunk.
+      Chunk teratas: [Prabowo Bodoh.pdf · chunk 15] jarak=0.254
+      orang presiden tidak harus menjadi manusia yang sempurna. Namun, ia wajib memiliki  kemampuan untuk belajar, kemauan untuk mendengarkan, dan keberanian untuk  bertanggung jawab. Sebab, kesalahan seorang warga negara mungkin hanya berdampak  pada kehidupannya sendiri, tetapi kesalahan seorang preside...
+
+======================================================================
+KOLEKSI pedoman_1000 | chunk=1000 | overlap=150 | total 25 chunk
+======================================================================
+  Buzzer Bodoh.pdf -> 9 chunk
+  Orang Bodoh voter 02.pdf -> 7 chunk
+  Prabowo Bodoh.pdf -> 9 chunk
+
+  Hit@1 = 0.27
+  Hit@3 = 0.47
+  Hit@5 = 0.53
+  MRR   = 0.38
+
+  RINCIAN PER PERTANYAAN
+  [ 1] GAGAL (tidak ada di top-5) | Apa yang menjadi salah satu persoalan dalam kehidupan demokrasi akibat aktivitas pembelaan politik tanpa batas? | kunci: "buzzer politik"
+  [ 2] kena di peringkat 1 | Apa yang seharusnya menjadi dasar masyarakat dalam memberikan suara saat pemilu? | kunci: "pertimbangan yang matang"
+  [ 3] GAGAL (tidak ada di top-5) | Apa yang berhak dilakukan masyarakat ketika pemerintah melakukan kesalahan? | kunci: "mengkritik"
+  [ 4] kena di peringkat 5 | Apa yang sering diutamakan sebagian pemilih daripada logika? | kunci: "fanatisme"
+  [ 5] kena di peringkat 1 | Apa yang harus dipelajari masyarakat sebelum menentukan pilihan dalam pemilu? | kunci: "rekam jejak calon pemimpin"
+  [ 6] GAGAL (tidak ada di top-5) | Apa yang menjadi tanggung jawab moral dari kebebasan memilih dalam demokrasi? | kunci: "mempertimbangkan pilihan secara rasional"
+  [ 7] kena di peringkat 2 | Apa yang seharusnya menjadi salah satu alat untuk memperbaiki pemerintahan? | kunci: "kritik"
+  [ 8] kena di peringkat 2 | Apa yang berhak diketahui publik jika seseorang mendapatkan keuntungan finansial dari aktivitas buzzer? | kunci: "transparansi"
+  [ 9] GAGAL (tidak ada di top-5) | Apa yang dibutuhkan masyarakat ketika mengeluhkan keadaan ekonomi kepada pemerintah? | kunci: "solusi"
+  [10] GAGAL (tidak ada di top-5) | Apa yang seharusnya menjadi prioritas utama dalam setiap keputusan seorang presiden? | kunci: "kepentingan rakyat"
+  [11] kena di peringkat 2 | Apa yang harus dilakukan terhadap kebijakan pemerintah jika tidak memberikan hasil yang diharapkan? | kunci: "dievaluasi"
+  [12] GAGAL (tidak ada di top-5) | Apa yang harus dimiliki seorang presiden untuk menghadapi kesalahan dalam kepemimpinannya? | kunci: "keberanian untuk bertanggung jawab"
+  [13] kena di peringkat 1 | Apa yang dapat memengaruhi harga kebutuhan pokok, pendidikan, kesehatan, dan lapangan pekerjaan? | kunci: "Kebijakan yang dibuat seorang presiden"
+  [14] GAGAL (tidak ada di top-5) | Apa yang dibutuhkan seorang presiden selain kemampuan menyampaikan pidato? | kunci: "berpikir jernih"
+  [15] kena di peringkat 1 | Apa yang dibutuhkan Indonesia dari seorang pemimpin untuk membangun masa depan bangsa? | kunci: "hasil nyata"
+
+  ANALISIS PERTANYAAN YANG GAGAL
+  [1] Apa yang menjadi salah satu persoalan dalam kehidupan demokrasi akibat aktivitas pembelaan politik tanpa batas?  (kunci: "buzzer politik")
+      Chunk teratas: [Orang Bodoh voter 02.pdf · chunk 2] jarak=0.365
+      justru dianggap  sebagai serangan pribadi. Bukannya mencoba memahami kritik tersebut, mereka malah  sibuk menyerang orang yang menyampaikannya. Seakan-akan calon presiden yang mereka  dukung tidak boleh dipertanyakan, tidak boleh dikritik, dan tidak boleh dianggap  melakukan kesalahan.  Padahal, ap...
+  [3] Apa yang berhak dilakukan masyarakat ketika pemerintah melakukan kesalahan?  (kunci: "mengkritik")
+      Chunk teratas: [Prabowo Bodoh.pdf · chunk 7] jarak=0.290
+      mpinannya benar- benar menghasilkan perubahan yang dirasakan masyarakat.  Jika kebijakan pemerintah tidak memberikan hasil yang diharapkan, maka kebijakan  tersebut harus dievaluasi. Jika keputusan seorang presiden terbukti keliru, maka  keputusan itu harus dikritik. Jika pemerintah gagal memenuhi j...
+  [6] Apa yang menjadi tanggung jawab moral dari kebebasan memilih dalam demokrasi?  (kunci: "mempertimbangkan pilihan secara rasional")
+      ! Kata kunci TIDAK ditemukan di chunk mana pun pada koleksi ini: cek penulisan kunci, atau kata kunci terpotong di perbatasan chunk.
+      Chunk teratas: [Orang Bodoh voter 02.pdf · chunk 0] jarak=0.287
+      Ketika Hak Memilih Digunakan Tanpa Berpikir Kritis  Salah satu hal yang paling menyedihkan dalam demokrasi bukan hanya ketika seseorang  yang dianggap tidak kompeten berhasil menduduki kursi kekuasaan, tetapi juga ketika  sebagian masyarakat memberikan suara tanpa benar-benar mempertimbangkan  konse...
+  [9] Apa yang dibutuhkan masyarakat ketika mengeluhkan keadaan ekonomi kepada pemerintah?  (kunci: "solusi")
+      Chunk teratas: [Buzzer Bodoh.pdf · chunk 4] jarak=0.412
+      r, dan  masyarakat yang berani menyampaikan persoalan. Jika semua orang hanya sibuk memuji,  siapa yang akan mengingatkan ketika pemerintah melakukan kesalahan?  Bayangkan betapa berbahayanya sebuah pemerintahan apabila ruang kritik terus-menerus  dipenuhi gangguan, intimidasi verbal, dan propaganda...
+  [10] Apa yang seharusnya menjadi prioritas utama dalam setiap keputusan seorang presiden?  (kunci: "kepentingan rakyat")
+      Chunk teratas: [Prabowo Bodoh.pdf · chunk 3] jarak=0.316
+      ai perencanaan yang matang? Dan  apa gunanya memiliki kekuasaan yang begitu besar apabila kekuasaan tersebut tidak  digunakan secara bijaksana?  Seorang presiden seharusnya memahami bahwa setiap keputusan memiliki konsekuensi.  Kebijakan yang terlihat bagus di atas kertas belum tentu berhasil ketika...
+  [12] Apa yang harus dimiliki seorang presiden untuk menghadapi kesalahan dalam kepemimpinannya?  (kunci: "keberanian untuk bertanggung jawab")
+      ! Kata kunci TIDAK ditemukan di chunk mana pun pada koleksi ini: cek penulisan kunci, atau kata kunci terpotong di perbatasan chunk.
+      Chunk teratas: [Prabowo Bodoh.pdf · chunk 7] jarak=0.252
+      mpinannya benar- benar menghasilkan perubahan yang dirasakan masyarakat.  Jika kebijakan pemerintah tidak memberikan hasil yang diharapkan, maka kebijakan  tersebut harus dievaluasi. Jika keputusan seorang presiden terbukti keliru, maka  keputusan itu harus dikritik. Jika pemerintah gagal memenuhi j...
+  [14] Apa yang dibutuhkan seorang presiden selain kemampuan menyampaikan pidato?  (kunci: "berpikir jernih")
+      Chunk teratas: [Prabowo Bodoh.pdf · chunk 6] jarak=0.252
+      anggungjawaban. Mereka tidak wajib memuji setiap kebijakan  hanya karena kebijakan tersebut berasal dari seorang presiden.  Jabatan presiden seharusnya menjadi amanah, bukan panggung untuk membangun citra  pribadi. Seorang presiden harus mampu membedakan antara kepentingan negara dan  kepentingan po...
+
+======================================================================
+KESIMPULAN (isi sendiri, 3-4 kalimat)
+======================================================================
+Ukuran chunk yang lebih baik : 
+Pertanyaan yang gagal        : 
+Dugaan penyebab              : 
+

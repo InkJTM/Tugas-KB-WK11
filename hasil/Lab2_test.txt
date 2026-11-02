@@ -1,0 +1,276 @@
+======================================================================
+LAB 2 - BANGUN INDEKS & CARI
+======================================================================
+Diperbarui : 2026-11-02 09:57:52
+Model      : paraphrase-multilingual-MiniLM-L12-v2
+Koleksi    : pedoman_800 (chunk=800, overlap=120, jarak=cosine)
+Top-k      : 3
+
+INDEKS
+  Buzzer Bodoh.pdf -> 11 chunk
+  Orang Bodoh voter 02.pdf -> 8 chunk
+  Prabowo Bodoh.pdf -> 11 chunk
+  Total: 30 chunk
+
+
+======================================================================
+5 PERTANYAAN BIASA
+======================================================================
+
+[1] PERTANYAAN: Mengapa masyarakat perlu tetap berpikir kritis dan tidak membela pemimpin secara membabi buta, meskipun mereka merupakan pendukungnya?
+  #1 [Buzzer Bodoh.pdf · chunk 4]  jarak=0.270
+  akah mereka benar-benar memahami persoalan yang sedang dibicarakan, atau hanya 
+  mengulang narasi yang dianggap menguntungkan pihak yang mereka dukung? 
+  Lebih jauh lagi, ada perbedaan besar antara menjadi pendukung pemerintah dan menjadi 
+  pembela segala tindakan pemerintah. Pendukung yang rasional masih memiliki batas. 
+  Mereka bisa mengapresiasi kebijakan yang berhasil sekaligus mengkritik kebijakan yang 
+  bermasalah. Sebaliknya, pembela yang fanatik sering kali menjadikan loyalitas sebagai 
+  alasan untuk menolak kenyataan. 
+  Padahal, seorang presiden tidak membutuhkan rakyat yang selalu mengatakan bahwa 
+  dirinya benar. Presiden membutuhkan sistem pengawasan, kritik yang jujur, dan 
+  masyarakat yang berani menyampaikan persoalan. Jika semua orang hanya sibuk memuji, 
+  siapa yang akan mengingatka
+
+  #2 [Buzzer Bodoh.pdf · chunk 10]  jarak=0.271
+  kebetulan sedang berkuasa? 
+  Karena menjadi pendukung politik adalah hak setiap warga negara. Tetapi kehilangan 
+  kemampuan berpikir kritis demi membela siapa pun bukanlah sesuatu yang patut 
+  dibanggakan.
+
+  #3 [Prabowo Bodoh.pdf · chunk 5]  jarak=0.294
+  ka pendukungnya meneriakkan namanya, dan 
+  bukan ketika kamera menyorot setiap kegiatannya. Kualitas kepemimpinan diuji ketika 
+  keputusan sulit harus diambil, ketika kritik datang dari masyarakat, ketika kebijakan 
+  pemerintah dipertanyakan, dan ketika seorang pemimpin harus memilih antara 
+  kepentingan politik jangka pendek dengan kesejahteraan rakyat dalam jangka panjang. 
+  Presiden yang baik tidak akan menganggap kritik sebagai ancaman. Presiden yang baik 
+  justru memahami bahwa kritik merupakan salah satu alat untuk memperbaiki 
+  pemerintahan. Jika setiap pertanyaan dianggap sebagai serangan, setiap perbedaan 
+  pendapat dianggap sebagai permusuhan, dan setiap kritik dianggap sebagai bentuk 
+  ketidaksetiaan, lalu bagaimana sebuah pemerintahan dapat berkembang? 
+  Kekuasaan yang tidak mau dikritik
+
+  Chunk teratas relevan?  [ ] ya   [ ] tidak   Catatan: 
+
+[2] PERTANYAAN: Bagaimana pengaruh buzzer politik yang menyebarkan narasi atau informasi menyesatkan terhadap kualitas demokrasi dan kebebasan berpendapat di Indonesia?
+  #1 [Buzzer Bodoh.pdf · chunk 8]  jarak=0.295
+  harus menghadapi konsekuensi dari kebijakan 
+  pemerintah. Orang yang membuat konten pembelaan bisa saja menutup aplikasi dan 
+  melanjutkan kehidupannya, sementara rakyat tetap harus menghadapi persoalan nyata di 
+  luar layar ponsel. 
+  Jangan jadikan loyalitas politik sebagai alasan untuk mematikan akal sehat. 
+  Mendukung presiden bukan berarti harus membenarkan semuanya. Mengkritik presiden 
+  bukan berarti membenci Indonesia. Dan mempertanyakan kebijakan pemerintah bukanlah 
+  tindakan pengkhianatan terhadap bangsa. 
+  Indonesia tidak membutuhkan masyarakat yang hanya pandai bertepuk tangan ketika 
+  penguasa berbicara. Indonesia membutuhkan masyarakat yang berani bertanya ketika ada 
+  sesuatu yang tidak beres. 
+  Karena negara ini bukan panggung pencitraan seorang presiden, bukan ladang keuntungan 
+  par
+
+  #2 [Buzzer Bodoh.pdf · chunk 6]  jarak=0.339
+  budaya demokrasi yang memungkinkan pemimpin tersebut dipilih. 
+  Jika seseorang mendapatkan keuntungan finansial dari aktivitas buzzer, setidaknya 
+  transparansi menjadi hal yang penting. Publik berhak mengetahui apakah suatu konten 
+  merupakan pendapat pribadi, promosi politik berbayar, atau bagian dari kampanye 
+  terorganisasi. Masyarakat tidak seharusnya dibuat percaya bahwa sebuah opini 
+  merupakan suara spontan warga apabila sebenarnya ada kepentingan tertentu di 
+  belakangnya. 
+  Namun, persoalannya bukan semata-mata apakah seseorang dibayar atau tidak. Orang 
+  boleh saja mendukung Prabowo, menyukai kebijakannya, bahkan secara sukarela 
+  membelanya. Yang menjadi masalah adalah ketika dukungan tersebut berubah menjadi 
+  pembenaran tanpa syarat, penyebaran informasi menyesatkan, dan usaha membung
+
+  #3 [Buzzer Bodoh.pdf · chunk 1]  jarak=0.343
+  enuhi oleh orang-orang yang lebih 
+  sibuk menjaga citra penguasa daripada membicarakan kepentingan rakyat, diskusi yang 
+  seharusnya menjadi sarana evaluasi justru berubah menjadi arena pembelaan tanpa 
+  batas. 
+  Yang paling ironis adalah ketika ada orang yang menganggap membela presiden sebagai 
+  sebuah prestasi, seolah-olah semakin keras mereka membela Prabowo, semakin besar 
+  pula kontribusi mereka terhadap Indonesia. Padahal, membela seseorang yang sedang 
+  memegang kekuasaan tidak otomatis berarti membela negara. Presiden bukan negara. 
+  Pemerintah bukan rakyat. Dan kepentingan seorang penguasa tidak selalu identik dengan 
+  kepentingan seluruh masyarakat. 
+  Jika pemerintah melakukan sesuatu yang benar, masyarakat boleh memberikan apresiasi. 
+  Namun, jika pemerintah melakukan kesalahan, masyaraka
+
+  Chunk teratas relevan?  [ ] ya   [ ] tidak   Catatan: 
+
+[3] PERTANYAAN: Apa saja hal yang seharusnya menjadi pertimbangan masyarakat sebelum menentukan pilihan dalam pemilu, dan mengapa rekam jejak calon pemimpin penting untuk diperhatikan?
+  #1 [Orang Bodoh voter 02.pdf · chunk 0]  jarak=0.293
+  Ketika Hak Memilih Digunakan Tanpa Berpikir Kritis 
+  Salah satu hal yang paling menyedihkan dalam demokrasi bukan hanya ketika seseorang 
+  yang dianggap tidak kompeten berhasil menduduki kursi kekuasaan, tetapi juga ketika 
+  sebagian masyarakat memberikan suara tanpa benar-benar mempertimbangkan 
+  konsekuensi dari pilihan mereka sendiri. Pemilu seharusnya menjadi momen ketika 
+  masyarakat menggunakan akal sehat, mempelajari rekam jejak calon pemimpin, 
+  memahami visi dan misi, serta mempertimbangkan bagaimana keputusan politik hari ini 
+  akan memengaruhi kehidupan mereka di masa depan. Namun, kenyataannya, tidak semua 
+  orang menggunakan hak pilih dengan pertimbangan yang matang. 
+  Memilih seorang presiden bukan seperti memilih makanan di restoran. Jika salah memilih 
+  makanan, paling-paling seseora
+
+  #2 [Orang Bodoh voter 02.pdf · chunk 6]  jarak=0.298
+  pejabat publik yang dibayar dan diberi mandat untuk menjalankan pemerintahan, bukan 
+  idola yang harus selalu dibela. Tidak ada kewajiban bagi masyarakat untuk menyukai 
+  setiap kebijakannya. Justru, masyarakat harus berani mempertanyakan setiap keputusan 
+  yang berpotensi merugikan kepentingan publik. 
+  Pada akhirnya, persoalan terbesar bukan sekadar siapa yang memilih Prabowo, melainkan 
+  bagaimana seseorang menggunakan hak pilihnya. Apakah ia memilih berdasarkan 
+  informasi dan pertimbangan yang matang, atau hanya mengikuti keramaian tanpa 
+  memahami apa yang sedang dipertaruhkan? 
+  Karena demokrasi tidak otomatis menghasilkan keputusan terbaik hanya karena semua 
+  orang mendapatkan hak suara. Demokrasi membutuhkan masyarakat yang mau 
+  membaca, mendengar, membandingkan, mempertanyakan, dan berp
+
+  #3 [Orang Bodoh voter 02.pdf · chunk 4]  jarak=0.299
+  ihat pilihan tersebut sebagai alternatif terbaik 
+  dibandingkan kandidat lainnya. Namun, pemilih yang menolak berpikir kritis, mengabaikan 
+  fakta, dan membela segala sesuatu secara membabi buta memang layak mendapatkan 
+  kritik keras. 
+  Sebab, menjadi pendukung tidak berarti harus kehilangan kemampuan berpikir. Menyukai 
+  seorang tokoh politik bukan berarti harus menyetujui semua tindakannya. Memilih 
+  seseorang dalam pemilu bukan berarti menyerahkan seluruh akal sehat kepadanya. 
+  Hal yang paling ironis adalah ketika seseorang begitu bersemangat membela pilihan 
+  politiknya, tetapi tidak memiliki keberanian yang sama untuk menuntut 
+  pertanggungjawaban dari pemimpin yang dipilihnya. Ketika kebijakan pemerintah 
+  dipertanyakan, mereka mencari alasan untuk membenarkannya. Ketika masyarakat 
+  menyampa
+
+  Chunk teratas relevan?  [ ] ya   [ ] tidak   Catatan: 
+
+[4] PERTANYAAN: Mengapa kritik dari masyarakat merupakan bagian penting dalam mengevaluasi kinerja seorang presiden, bukan bentuk kebencian atau ketidaksetiaan terhadap negara?
+  #1 [Prabowo Bodoh.pdf · chunk 5]  jarak=0.178
+  ka pendukungnya meneriakkan namanya, dan 
+  bukan ketika kamera menyorot setiap kegiatannya. Kualitas kepemimpinan diuji ketika 
+  keputusan sulit harus diambil, ketika kritik datang dari masyarakat, ketika kebijakan 
+  pemerintah dipertanyakan, dan ketika seorang pemimpin harus memilih antara 
+  kepentingan politik jangka pendek dengan kesejahteraan rakyat dalam jangka panjang. 
+  Presiden yang baik tidak akan menganggap kritik sebagai ancaman. Presiden yang baik 
+  justru memahami bahwa kritik merupakan salah satu alat untuk memperbaiki 
+  pemerintahan. Jika setiap pertanyaan dianggap sebagai serangan, setiap perbedaan 
+  pendapat dianggap sebagai permusuhan, dan setiap kritik dianggap sebagai bentuk 
+  ketidaksetiaan, lalu bagaimana sebuah pemerintahan dapat berkembang? 
+  Kekuasaan yang tidak mau dikritik
+
+  #2 [Prabowo Bodoh.pdf · chunk 1]  jarak=0.272
+  mulai mempertanyakan apakah orang yang mereka pilih benar-benar memahami besarnya 
+  tanggung jawab yang sedang dipikulnya. Sebab, menjadi presiden bukanlah kompetisi 
+  popularitas, bukan perlombaan siapa yang paling sering muncul di televisi, dan bukan pula 
+  ajang untuk membuktikan siapa yang paling hebat dalam berpidato. Presiden seharusnya 
+  menjadi seseorang yang mampu berpikir jernih, mengambil keputusan berdasarkan 
+  pertimbangan matang, memahami persoalan negara, serta berani bertanggung jawab 
+  ketika kebijakannya menimbulkan masalah. 
+  Kritik terhadap Prabowo Subianto sebagai presiden seharusnya tidak dianggap sebagai 
+  kebencian terhadap negara atau sebagai tindakan tidak menghormati jabatan presiden. 
+  Justru sebaliknya, mengkritik seorang presiden merupakan bagian penting dari kecintaan
+
+  #3 [Prabowo Bodoh.pdf · chunk 9]  jarak=0.307
+  dievaluasi. Jika keputusan seorang presiden terbukti keliru, maka 
+  keputusan itu harus dikritik. Jika pemerintah gagal memenuhi janjinya, maka rakyat berhak 
+  meminta penjelasan. Tidak ada jabatan yang membuat seseorang kebal dari 
+  pertanggungjawaban. 
+  Seorang presiden tidak harus menjadi manusia yang sempurna. Namun, ia wajib memiliki 
+  kemampuan untuk belajar, kemauan untuk mendengarkan, dan keberanian untuk 
+  bertanggung jawab. Sebab, kesalahan seorang warga negara mungkin hanya berdampak 
+  pada kehidupannya sendiri, tetapi kesalahan seorang presiden dapat berdampak pada 
+  kehidupan jutaan orang. 
+  Dan itulah mengapa jabatan presiden tidak boleh diperlakukan sebagai hadiah popularitas 
+  atau kemenangan politik semata. Jabatan tersebut merupakan tanggung jawab yang luar 
+  biasa besar. 
+  Indonesi
+
+  Chunk teratas relevan?  [ ] ya   [ ] tidak   Catatan: 
+
+[5] PERTANYAAN: Bagaimana cara membedakan pemimpin yang benar-benar memiliki kemampuan memimpin dengan pemimpin yang hanya mengandalkan popularitas, janji, dan pencitraan politik?
+  #1 [Prabowo Bodoh.pdf · chunk 0]  jarak=0.295
+  Ketika Jabatan Presiden Lebih Besar daripada Kemampuan Memimpin 
+  Menjadi presiden bukanlah sekadar duduk di kursi tertinggi pemerintahan, mengenakan 
+  pakaian resmi, memberikan pidato di hadapan kamera, atau berdiri di panggung 
+  internasional sambil membawa nama Indonesia. Menjadi presiden berarti memiliki 
+  tanggung jawab besar terhadap jutaan rakyat yang menggantungkan harapan, masa depan, 
+  bahkan kehidupan mereka pada setiap keputusan yang dibuat oleh pemimpinnya. 
+  Sayangnya, jabatan sebesar itu tidak otomatis membuat seseorang memiliki kemampuan 
+  yang sebanding dengan tanggung jawabnya. 
+  Salah satu hal paling menyedihkan dalam sebuah demokrasi adalah ketika masyarakat 
+  mulai mempertanyakan apakah orang yang mereka pilih benar-benar memahami besarnya 
+  tanggung jawab yang sedang dipikulnya
+
+  #2 [Prabowo Bodoh.pdf · chunk 8]  jarak=0.311
+  a kekuasaan memiliki batas, 
+  bahwa popularitas dapat berubah, dan bahwa sejarah tidak akan menilai seorang 
+  pemimpin hanya berdasarkan seberapa sering ia berbicara tentang kejayaan bangsa, tetapi 
+  juga berdasarkan apa yang benar-benar ia lakukan selama memegang kekuasaan. 
+  Pada akhirnya, pertanyaan terbesar bukanlah apakah Prabowo cukup populer, apakah ia 
+  memiliki banyak pendukung, atau apakah ia mampu menyampaikan pidato yang terdengar 
+  meyakinkan. Pertanyaan yang jauh lebih penting adalah apakah kepemimpinannya benar-
+  benar menghasilkan perubahan yang dirasakan masyarakat. 
+  Jika kebijakan pemerintah tidak memberikan hasil yang diharapkan, maka kebijakan 
+  tersebut harus dievaluasi. Jika keputusan seorang presiden terbukti keliru, maka 
+  keputusan itu harus dikritik. Jika pemerintah gagal
+
+  #3 [Orang Bodoh voter 02.pdf · chunk 5]  jarak=0.336
+  nya. Ketika kebijakan pemerintah 
+  dipertanyakan, mereka mencari alasan untuk membenarkannya. Ketika masyarakat 
+  menyampaikan keluhan, mereka justru menyuruh masyarakat untuk bersabar. Ketika janji 
+  politik tidak sesuai dengan kenyataan, mereka seolah-olah lupa bahwa sebelumnya 
+  mereka sendiri ikut mengampanyekan janji tersebut. 
+  Jika seseorang memilih pemimpin, seharusnya ia juga siap mengevaluasi pemimpin 
+  tersebut. Jangan hanya berani merayakan kemenangan ketika calon pilihan menang, tetapi 
+  tiba-tiba kehilangan kemampuan berpikir kritis ketika pemerintahan mulai menghadapi 
+  persoalan. 
+  Rakyat tidak seharusnya menjadi penggemar fanatik seorang presiden. Presiden adalah 
+  pejabat publik yang dibayar dan diberi mandat untuk menjalankan pemerintahan, bukan 
+  idola yang harus selalu dibela. Ti
+
+  Chunk teratas relevan?  [ ] ya   [ ] tidak   Catatan: 
+
+======================================================================
+1 PERTANYAAN PARAFRASE (kata berbeda dari dokumen)
+======================================================================
+
+[1] PERTANYAAN: Bolehkah berhenti kuliah sementara waktu?
+  #1 [Buzzer Bodoh.pdf · chunk 9]  jarak=0.871
+  a 
+  sesuatu yang tidak beres. 
+  Karena negara ini bukan panggung pencitraan seorang presiden, bukan ladang keuntungan 
+  para buzzer, dan bukan tempat bagi kepentingan politik untuk mengalahkan kepentingan 
+  rakyat. 
+  Seorang presiden bisa berganti, pemerintahan bisa berakhir, dan kekuasaan bisa 
+  berpindah tangan. Namun, dampak dari informasi menyesatkan dan budaya anti-kritik 
+  dapat merusak kualitas demokrasi jauh lebih lama daripada masa jabatan seorang 
+  pemimpin. 
+  Jadi, sebelum sibuk membela seorang penguasa, ada baiknya setiap orang bertanya 
+  kepada dirinya sendiri: apakah yang sedang saya perjuangkan benar-benar kepentingan 
+  rakyat, atau sekadar kepentingan seseorang yang kebetulan sedang berkuasa? 
+  Karena menjadi pendukung politik adalah hak setiap warga negara. Tetapi kehilangan 
+  kemampua
+
+  #2 [Buzzer Bodoh.pdf · chunk 0]  jarak=0.916
+  Ketika Akal Sehat Dikalahkan oleh Bayaran dan Fanatisme: Fenomena Buzzer yang 
+  Terus Membela Kekuasaan 
+  Ada sesuatu yang patut dipertanyakan ketika seseorang rela menghabiskan waktu, tenaga, 
+  bahkan harga dirinya untuk membela seorang penguasa tanpa mau mempertimbangkan 
+  apakah penguasa tersebut benar atau salah. Terlebih ketika pembelaan itu dilakukan 
+  bukan berdasarkan fakta, melainkan dengan cara memutarbalikkan keadaan, menutupi 
+  persoalan, menyerang orang yang mengkritik, dan berusaha membuat segala sesuatu 
+  terlihat baik-baik saja. 
+  Fenomena buzzer politik menjadi salah satu persoalan yang patut diperhatikan dalam 
+  kehidupan demokrasi. Sebab, ketika ruang publik dipenuhi oleh orang-orang yang lebih 
+  sibuk menjaga citra penguasa daripada membicarakan kepentingan rakyat, diskusi yang
+
+  #3 [Prabowo Bodoh.pdf · chunk 8]  jarak=0.926
+  a kekuasaan memiliki batas, 
+  bahwa popularitas dapat berubah, dan bahwa sejarah tidak akan menilai seorang 
+  pemimpin hanya berdasarkan seberapa sering ia berbicara tentang kejayaan bangsa, tetapi 
+  juga berdasarkan apa yang benar-benar ia lakukan selama memegang kekuasaan. 
+  Pada akhirnya, pertanyaan terbesar bukanlah apakah Prabowo cukup populer, apakah ia 
+  memiliki banyak pendukung, atau apakah ia mampu menyampaikan pidato yang terdengar 
+  meyakinkan. Pertanyaan yang jauh lebih penting adalah apakah kepemimpinannya benar-
+  benar menghasilkan perubahan yang dirasakan masyarakat. 
+  Jika kebijakan pemerintah tidak memberikan hasil yang diharapkan, maka kebijakan 
+  tersebut harus dievaluasi. Jika keputusan seorang presiden terbukti keliru, maka 
+  keputusan itu harus dikritik. Jika pemerintah gagal
+
+  Chunk teratas relevan?  [ ] ya   [ ] tidak   Catatan: 
